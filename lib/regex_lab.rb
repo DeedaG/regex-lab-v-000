@@ -23,9 +23,7 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
     if text.match(/(\b[A-Z]\w) && (\b[.?]\z)/)
       return true
     else false
-
-  elsif text.match(/(\b[A-Z]\w) && (\b[.?]\z)/) == false
-  else false
+  
   end
 end
 
