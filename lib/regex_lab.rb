@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
-  if word.scan(/\b^[AaEeIiOoUu]\b/) == true
+  if word.scan(/\b\w^[AaEeIiOoUu]\b/) == true
   else false
   end
 end
@@ -15,7 +15,7 @@ def words_five_letters_long(text)
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
-  if text.scan(/^\w[A-Z]/ && /\z.?/) == true
+  if text.scan(/\b\w^[A-Z]/ && /\z.?/) == true
   else false
   end
 end
