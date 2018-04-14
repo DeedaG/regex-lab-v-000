@@ -1,13 +1,13 @@
 def starts_with_a_vowel?(word)
-\w
+scan(/\w+[aeiou]/)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-\w
+\w^abc$+un 
 end
 
 def words_five_letters_long(text)
-scan(/^\w{5}\s/)
+scan(/^\w{5}\s/
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
