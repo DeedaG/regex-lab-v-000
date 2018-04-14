@@ -4,7 +4,7 @@ def starts_with_a_vowel?(word)
   else
     return false
   end
-    if word.!match(/\b[AaEeIiOoUu]\w/) !== nil
+    if word.!match(/\b[AaEeIiOoUu]\w/) == nil
     return false
   else
     return true
